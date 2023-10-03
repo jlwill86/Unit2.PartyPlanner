@@ -1,0 +1,39 @@
+#addParty {
+    display: flex;
+    border: 2px solid black;
+    padding: .3em;
+    background-color: black;
+    color: orangered;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    columns: 2;
+    row-gap: 20px;
+    width: max-content;
+}
+
+label {
+    margin-right: 15px;
+}
+#parties {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .party {
+    flex: 1 1 300px;
+    max-height: max-content;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:black;
+    color: orangered;
+  }
+  
+  /* .recipe img {
+    max-width: 100%;
+    max-height: 30%;
+  } */
